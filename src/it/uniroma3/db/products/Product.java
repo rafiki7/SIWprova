@@ -21,6 +21,8 @@ public class Product {
 	private String description;
 	@Column(nullable = false)
 	private String code;
+	@Column (length = 2000)
+	private String prova;
 
 	public Product() {
 	}
